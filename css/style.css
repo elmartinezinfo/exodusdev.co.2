@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* Note: Fluid media requires that you remove the media's height and width attributes */
+img, object, embed, video {max-width: 100%;}
+.ie6 img {width:100%;}
+body {
+    background-image:url(../img/exodusdev.7.png);
+    background-position:top left !important;
+    background-repeat:no-repeat;
+}
+.LeftPanel {
+    position: absolute;
+    top: 4px;
+    left: 9px;
+    width: 279px;
+    
+}
+.headermain {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: left;
+    text-decoration: none;
+}
+.headermainsub1 {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: left;
+    text-decoration: none;
+}
+.headermainsub2 {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: left;
+    text-decoration: none;
+}
+.fluid {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+.fluidList {
+    list-style:none;
+    list-style-image:none;
+    margin:0;
+    padding:0;        
+}
+
+.gridContainer {
+    width: 86.45%;
+    clear: none;
+    float: none;
+}
+#div1 {
+}
+#xh {
+}
+#xnav {
+}
+#xside {
+}
+#xarticle {
+}
+#xfig {
+}
+#x1 {
+}
+#x2 {
+}
+#x3 {
+}
+#xss {
+}
+#xft {
+}
+.zeroMargin_mobile {
+margin-left: 0;
+}
+.hide_mobile {
+display: none;
+}
+.no-js body .gridContainer.clearfix #xtion #xside #xarticle #parax span {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #646464;
+}
+@media only screen and (min-width: 481px) {
+
+.gridContainer {
+    width: 100%;
+    clear: both;
+    float: left;
+    position: fixed;
+}
+#div1 {
+}
+#xh {
+}
+#xnav {
+}
+#xside {
+}
+#xarticle {
+}
+#xfig {
+}
+#x1 {
+}
+#x2 {
+}
+#x3 {
+}
+#xss {
+}
+#xft {
+}
+.hide_tablet {
+display: none;
+}
+.zeroMargin_tablet {
+margin-left: 0;
+}
+}
+
+@media only screen and (min-width: 769px) {
+
+.gridContainer {
+    width: 100%;
+    max-width: 1232px;
+    margin: auto;
+    clear: none;
+    float: none;
+    margin-left: auto;
+    height: 800px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: bold;
+    color: #506567;
+    text-align: left;
+    text-decoration: none;
+}
+#div1 {
+}
+#xh {
+}
+#xnav {
+}
+#xside {
+}
+#xarticle {
+}
+#xfig {
+}
+#x1 {
+}
+#x2 {
+}
+#x3 {
+}
+#xss {
+}
+#xft {
+}
+.zeroMargin_desktop {
+margin-left: 0;
+}
+.hide_desktop {
+display: none;
+}
+}
